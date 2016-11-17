@@ -61,12 +61,32 @@ table {
           box-sizing: border-box;
 }
 
-.containier {
+.container {
   width: 960px;
   padding-left: 30px;
   padding-right: 30px;
   margin: 0, auto;
 
+}
+
+/*
+===================
+Clearfix
+===================
+*/
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group{
+  clear: both;
+  *zoom: 1;
 }
 
 /*
@@ -102,4 +122,30 @@ Home
 
 .hero {
   padding: 22px 80px 66px 80px;
+}
+
+
+/*
+=====================
+Primary header
+=====================
+*/
+.logo {
+  border-top: 4px solid #648880;
+  padding: 40px 0 22px 0;
+  float: left;
+}
+
+/*
+=====================
+Primary footer
+=====================
+*/
+.primary-footer {
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.primary-footer small {
+  float: left;
 }
