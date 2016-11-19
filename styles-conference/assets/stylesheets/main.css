@@ -54,7 +54,7 @@ Custom Styles
 */
 body {
   color: #888;
-  font: 300 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -225,6 +225,7 @@ Home
 
 .hero p {
   font-size: 24px;
+  font-weight: 100;
 }
 
 /*
@@ -238,6 +239,9 @@ Primary header
   float: left;
   font-size: 48px;
   line-height: 44px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: 100;
 }
 
 .tagline {
